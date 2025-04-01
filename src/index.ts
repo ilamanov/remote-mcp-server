@@ -4,8 +4,6 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import OAuthProvider from "@cloudflare/workers-oauth-provider";
 
-const ECHO_API_KEY = "lCxZPi8kh0qnpOITe00FzsmcdPv7oH09";
-
 export class MyMCP extends McpAgent {
   server = new McpServer({
     name: "Demo",
